@@ -93,7 +93,7 @@ export default function Page() {
               Creating Text-Based AI Clones of Myself: Exploring Perceptions, Development, Strategies, and Breakdowns
               <a href="" className="publication-link" target="_blank" rel="noopener noreferrer">Link</a>
             </h3>
-            <p>(In progress)</p>
+            <p>(Under review)</p>
             <p>
               <em>Donggun Lee, <strong>Suyoun Lee</strong>, Hyunseung Lim, Hwajung Hong</em>
             </p>
