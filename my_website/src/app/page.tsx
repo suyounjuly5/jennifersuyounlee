@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <div className="flex flex-col md:flex-row gap-12 md:gap-16 relative">
+    <div className="w-full max-w-6xl mx-auto flex flex-col md:flex-row gap-12 md:gap-16 relative">
 
       {/* Left Section: Profile Card (Sticky on desktop) */}
       <aside className="w-full md:w-1/4 flex-shrink-0 md:pl-2 lg:pl-6">
@@ -27,7 +27,7 @@ export default function Page() {
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /><path d="M16 13H8" /><path d="M16 17H8" /><path d="M10 9H8" /></svg>
             </a>
           </div>
-          <p className="w-full text-center text-sm text-slate-500 mb-8">jenslee705@kaist.ac.kr</p>
+          <p className="w-full text-center text-sm text-slate-500 mb-4">jenslee705@kaist.ac.kr</p>
 
           {/* Education Section */}
           <div className="w-full pt-8 border-t border-slate-200">
@@ -41,7 +41,7 @@ export default function Page() {
               </div>
 
               <div>
-                <h3 className="text-sm font-bold text-slate-800 tracking-tight">B.S., KAIST <span className="font-normal text-slate-600">— Industrial Design / AI Special Designated Major</span></h3>
+                <h3 className="text-sm font-bold text-slate-800 tracking-tight">B.S., KAIST <span className="font-normal text-slate-600">— Industrial Design /<br />AI Special Designated Major</span></h3>
                 <p className="text-xs text-slate-500 mt-1">Sep 2020 – Aug 2025</p>
                 <p className="text-xs font-medium italic text-slate-600 mt-1">Graduated with Cum Laude</p>
               </div>
@@ -58,7 +58,7 @@ export default function Page() {
       </aside>
 
       {/* Right Section: Main Content */}
-      <main className="w-full md:w-3/4 flex flex-col gap-20">
+      <main className="w-full md:w-2/3 flex flex-col gap-20">
 
         {/* About Me Section */}
         <section id="about" className="scroll-mt-32">
