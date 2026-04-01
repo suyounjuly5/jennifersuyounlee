@@ -135,7 +135,7 @@ export default function Page() {
                 </a>
               </p>
               <p className="text-sm text-slate-600">
-                <em>Donggun Lee*, <strong className="text-slate-800">Suyoun Lee*</strong>, Hyunseung Lim, Hwajung Hong</em>
+                <em>Donggun Lee1*, <strong className="text-slate-800">Suyoun Lee*</strong>, Hyunseung Lim, Hwajung Hong</em>
               </p>
             </div>
 
