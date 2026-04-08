@@ -65,11 +65,16 @@ export default function Page() {
           <h2 className="text-sm font-bold text-slate-900 mb-6 uppercase tracking-widest border-b border-slate-200 pb-2">About</h2>
           <div className="text-slate-700 leading-relaxed space-y-4">
             <p>
-              Hello! I am an undergraduate student in the Department of Industrial Design at the Korea Advanced Institute of Science and Technology (KAIST), with a minor in the AI Special Designated Major.
+              Hi, welcome to my website! I am a first-year Master’s student in Industrial Design at KAIST, advised by Professor Sangsu Lee as part of <a href="https://www.nextinterfacelab.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#5584d4] hover:text-[#3b69b5] underline decoration-[#c4d7f5] hover:decoration-[#5584d4] underline-offset-2 transition-colors">Next Interface Lab</a> and the <a href="https://hci.kaist.ac.kr/" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#5584d4] hover:text-[#3b69b5] underline decoration-[#c4d7f5] hover:decoration-[#5584d4] underline-offset-2 transition-colors">HCI@KAIST</a> community. During my undergraduate studies, I was fortunate to be advised by Professor <a href="https://dxd-lab.github.io/#/" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#5584d4] hover:text-[#3b69b5] underline decoration-[#c4d7f5] hover:decoration-[#5584d4] underline-offset-2 transition-colors">Hwajung Hong</a> on my Undergraduate Research Program.
             </p>
-
             <p>
-              My research interest lies at the intersection of Human-Computer Interaction, Human-AI Interaction, and Accessibility, with a strong emphasis on a Human-Centered design approach.
+              My research interests are in human-computer interaction (HCI) and human-AI interaction (HAI). Recently, I have been exploring topics such as AI-generated content labels, risks of AI reliance and homogenization, and multi-agent systems. Through my work, I hope to help people engage with technology in more meaningful ways.
+            </p>
+            <p>
+              I was born in the United States and spent my K–12 years in South Korea, Uzbekistan, and Switzerland. Growing up across different cultural and educational environments taught me to approach people, ideas, and ways of living with curiosity and open-mindedness. Outside of my research, I enjoy tennis, swimming, and skiing during the winter.
+            </p>
+            <p>
+              Whoever you are, feel free to reach out! I would be happy to connect!
             </p>
           </div>
         </section>
@@ -79,11 +84,11 @@ export default function Page() {
           <h2 className="text-sm font-bold text-slate-900 mb-8 uppercase tracking-widest border-b border-slate-200 pb-2">Publications</h2>
           <div className="flex flex-col gap-10">
 
-              {/* Publication 4 */}
-              <div className="group">
+            {/* Publication 4 */}
+            <div className="group">
               <div className="text-sm font-bold text-slate-400 mb-2 uppercase tracking-widest">2026</div>
               <h3 className="text-md font-bold text-slate-900 mb-1 leading-snug">
-              "Oops! ChatGPT is Temporarily Unavailable!'': A Diary Study on Knowledge Workers’ Experiences of LLM Withdrawal
+                "Oops! ChatGPT is Temporarily Unavailable!'': A Diary Study on Knowledge Workers’ Experiences of LLM Withdrawal
               </h3>
               <p className="text-sm text-slate-500 mb-2 font-medium">
                 CHI LBW 2026
@@ -103,7 +108,7 @@ export default function Page() {
             <div className="group">
               {/* <div className="text-sm font-bold text-slate-400 mb-2 uppercase tracking-widest">2026</div> */}
               <h3 className="text-md font-bold text-slate-900 mb-1 leading-snug">
-              Investigating AI-induced Technostress and Coping Strategies of Professionals
+                Investigating AI-induced Technostress and Coping Strategies of Professionals
               </h3>
               <p className="text-sm text-slate-500 mb-2 font-medium">
                 CHI 2026
