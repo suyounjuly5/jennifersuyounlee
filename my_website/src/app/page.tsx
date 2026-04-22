@@ -92,10 +92,10 @@ export default function Page() {
               </h3>
               <p className="text-sm text-slate-500 mb-2 font-medium">
                 CHI LBW 2026
-                {/* <a href="https://www.sciencedirect.com/science/article/pii/S1071581925002496?via%3Dihub" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
+                <a href="https://dl.acm.org/doi/10.1145/3772363.3798382" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
                   [DOI]
-                </a> */}
-                <a href="/Research%20PDF/2026%20CHI%20LBW.pdf" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
+                </a>
+                <a href="/Research%20PDF/2026%20CHI%20LBW_No%20LLM.pdf" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
                   [PDF]
                 </a>
               </p>
@@ -112,12 +112,12 @@ export default function Page() {
               </h3>
               <p className="text-sm text-slate-500 mb-2 font-medium">
                 CHI 2026
-                {/* <a href="https://www.sciencedirect.com/science/article/pii/S1071581925002496?via%3Dihub" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
+                <a href="https://dl.acm.org/doi/10.1145/3772318.3791671" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
                   [DOI]
                 </a>
-                <a href="/Research%20PDF/2025%20IJHCS%20.pdf" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
+                <a href="/Research%20PDF/2026%20CHI_AI%20Induced%20Technostress.pdf" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
                   [PDF]
-                </a> */}
+                </a>
               </p>
               <p className="text-sm text-slate-600">
                 <em>Heesung Kwon, Jeesun Oh, <strong className="text-slate-800">Suyoun Lee</strong>, Sunok Lee, Sangsu Lee</em>
@@ -135,7 +135,7 @@ export default function Page() {
                 <a href="https://www.sciencedirect.com/science/article/pii/S1071581925002496?via%3Dihub" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
                   [DOI]
                 </a>
-                <a href="/Research%20PDF/2025%20IJHCS%20.pdf" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
+                <a href="/Research%20PDF/2025%20IJHCS_AI%20Clone.pdf" className="inline-flex items-center ml-2 text-sm font-normal text-slate-400 hover:text-slate-600 transition-colors" target="_blank" rel="noopener noreferrer">
                   [PDF]
                 </a>
               </p>
