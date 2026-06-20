@@ -170,10 +170,45 @@ export default function Page() {
 
         {/* Projects Section */}
         <section id="projects" className="scroll-mt-32">
-          <h2 className="text-sm font-bold text-slate-900 mb-8 uppercase tracking-widest border-b border-slate-200 pb-2">Projects</h2>
+          <h2 className="text-sm font-bold text-slate-900 mb-2 uppercase tracking-widest border-b border-slate-200 pb-2">Projects</h2>
+          <p className="text-xs text-slate-400 mb-8">
+            Team projects were completed with equal contribution from all members
+          </p>
           <div className="flex flex-col gap-12">
 
             {/* Project 1 */}
+            <div className="flex flex-col sm:flex-row gap-6 group">
+              <div className="w-full sm:w-1/3 flex-shrink-0">
+                <img src="/RoomiTI.png" alt="ROOMITI Project" className="w-full h-auto aspect-square object-cover rounded-xl shadow-sm border border-slate-200/60 group-hover:shadow-md transition-shadow bg-slate-50" />
+              </div>
+              <div className="w-full sm:w-2/3">
+                <h3 className="text-lg font-bold text-slate-900 mb-2">ROOMITI</h3>
+                <p className="text-sm text-slate-500 mb-4">
+                  <em><strong className="text-slate-800">Suyoun Lee</strong>, Yoonjae Oh, Hyewon Yang, Jaesung Kim, Andrea Frer</em>
+                </p>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  RoomiTI is a dorm-living simulation system that helps students experience different roommate dynamics before entering an actual shared living environment. Just like MBTI, RoomiTI is built on four axes: life cycle, from morning bird to night owl; sensitivity, from insensitive to sensitive; room occupancy, from couch potato to ghost; and communication style, from passive to direct. After users find their RoomiTI type, the system simulates their compatibility with 16 other RoomiTI types. Users can check their satisfaction levels after 1, 3, and 6 months, and see both warming moments and conflict situations that happen in each month. RoomiTI helps students better understand themselves and their roommates, manage conflicts before they happen, and support more efficient dormitory management.
+                </p>
+              </div>
+            </div>
+
+            {/* Project 2 */}
+            <div className="flex flex-col sm:flex-row gap-6 group">
+              <div className="w-full sm:w-1/3 flex-shrink-0">
+                <img src="/Ttalkkak-Stangs.png" alt="Ttalkkak-Stangs Project" className="w-full h-auto aspect-square object-cover rounded-xl shadow-sm border border-slate-200/60 group-hover:shadow-md transition-shadow bg-slate-50" />
+              </div>
+              <div className="w-full sm:w-2/3">
+                <h3 className="text-lg font-bold text-slate-900 mb-2">Ttalkkak-Stangs</h3>
+                <p className="text-sm text-slate-500 mb-4">
+                  <em><strong className="text-slate-800">Suyoun Lee</strong>, Sieun Kim, Minsu Kim, Hyewon Yang</em>
+                </p>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  Ttalkkak-Stangs is a speculative design project that imagines a future Korea where people heavily rely on personal AI agents and can no longer tell humans and AI apart online. In response to growing social distrust, an anonymous resistance group called Ttalkkak-Stangs hacks national verification systems with a new CAPTCHA program called “Injeong.” Instead of asking users to identify images, Injeong asks personal, emotional, and contradictory questions to test whether someone is truly human. Through this fictional scenario, the project questions what defines humanity in an AI-dependent society. <a href="https://human-test-ebon.vercel.app/" className="font-semibold text-[#5584d4] hover:text-[#3b69b5] underline decoration-[#c4d7f5] hover:decoration-[#5584d4] underline-offset-2 transition-colors" target="_blank" rel="noopener noreferrer">Link to the CAPTCHA test.</a>
+                </p>
+              </div>
+            </div>
+
+            {/* Project 3 */}
             <div className="flex flex-col sm:flex-row gap-6 group">
               <div className="w-full sm:w-1/3 flex-shrink-0">
                 <img src="/to-i.png" alt="to-i Project" className="w-full h-auto aspect-square object-cover rounded-xl shadow-sm border border-slate-200/60 group-hover:shadow-md transition-shadow bg-slate-50" />
@@ -189,7 +224,7 @@ export default function Page() {
               </div>
             </div>
 
-            {/* Project 2 */}
+            {/* Project 4 */}
             <div className="flex flex-col sm:flex-row gap-6 group">
               <div className="w-full sm:w-1/3 flex-shrink-0">
                 <img src="/confitint.jpg" alt="ConfiTint Project" className="w-full h-auto aspect-square object-cover rounded-xl shadow-sm border border-slate-200/60 group-hover:shadow-md transition-shadow bg-slate-50" />
@@ -205,7 +240,7 @@ export default function Page() {
               </div>
             </div>
 
-            {/* Project 3 */}
+            {/* Project 5 */}
             <div className="flex flex-col sm:flex-row gap-6 group">
               <div className="w-full sm:w-1/3 flex-shrink-0">
                 <img src="/virusvamoose.jpeg" alt="Virus Vamoose Project" className="w-full h-auto aspect-square object-cover rounded-xl shadow-sm border border-slate-200/60 group-hover:shadow-md transition-shadow bg-slate-50" />
@@ -221,7 +256,7 @@ export default function Page() {
               </div>
             </div>
 
-            {/* Project 4 */}
+            {/* Project 6 */}
             <div className="flex flex-col sm:flex-row gap-6 group">
               <div className="w-full sm:w-1/3 flex-shrink-0">
                 <img src="/nh.png" alt="Nonghyup Bank Project" className="w-full h-auto aspect-square object-cover rounded-xl shadow-sm border border-slate-200/60 group-hover:shadow-md transition-shadow bg-slate-50" />
