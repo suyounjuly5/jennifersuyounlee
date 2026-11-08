@@ -269,7 +269,7 @@ export default function Page() {
               </div>
             </div>
 
-            {/* Project 6 */}
+            {/* Nonghyup Bank is hidden from the Projects list.
             <div className="flex flex-col sm:flex-row gap-6 group">
               <div className="w-full sm:w-1/3 flex-shrink-0">
                 <img src="/nh.png" alt="Nonghyup Bank Project" className="w-full h-auto aspect-square object-cover rounded-xl shadow-sm border border-slate-200/60 group-hover:shadow-md transition-shadow bg-slate-50" />
@@ -284,6 +284,7 @@ export default function Page() {
                 </p>
               </div>
             </div>
+            */}
 
           </div>
         </section>

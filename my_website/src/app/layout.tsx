@@ -21,10 +21,11 @@ export default function RootLayout({
             <a href="/" className="text-lg font-extrabold tracking-tight text-slate-900">
               JSL
             </a>
-            <div className="ml-auto w-full md:w-2/3 flex justify-end pr-6 gap-6 text-sm font-medium">
+            <div className="ml-auto w-full md:w-2/3 flex justify-end gap-3 text-sm font-medium sm:gap-6 sm:pr-6">
               <a href="#about" className="hover:text-blue-600 transition-colors">About</a>
               <a href="#publications" className="hover:text-blue-600 transition-colors">Publications</a>
               <a href="#projects" className="hover:text-blue-600 transition-colors">Projects</a>
+              <a href="/Jennifer_Suyoun_Lee_CV.pdf" className="hover:text-blue-600 transition-colors" target="_blank" rel="noopener noreferrer">CV</a>
             </div>
           </div>
         </nav>
