@@ -84,6 +84,19 @@ export default function Page() {
           <h2 className="text-sm font-bold text-slate-900 mb-8 uppercase tracking-widest border-b border-slate-200 pb-2">Publications</h2>
           <div className="flex flex-col gap-10">
 
+            <div className="group">
+              <div className="text-sm font-bold text-slate-400 mb-2 uppercase tracking-widest">2027</div>
+              <h3 className="text-md font-bold text-slate-900 mb-1 leading-snug">
+                What Should an AI Disclosure Label Tell Viewers? Expectations and Design Considerations for AI-Generated Short-Form Videos
+              </h3>
+              <p className="text-sm text-slate-500 mb-2 font-medium">
+                Under review at CHI 2027
+              </p>
+              <p className="text-sm text-slate-600">
+                <em><strong className="text-slate-800">Suyoun Lee</strong>, Heesung Kwon, Jun Seong Kim, Donggun Lee, Sangsu Lee</em>
+              </p>
+            </div>
+
             {/* Publication 4 */}
             <div className="group">
               <div className="text-sm font-bold text-slate-400 mb-2 uppercase tracking-widest">2026</div>
